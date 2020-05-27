@@ -4,9 +4,6 @@
         <StackLayout>
             <Label Text="Days" x:Name="Test" FontSize="Large" HorizontalOptions="Center"/>
             <ListView x:Name="lvDays"/>
-            <skia:SKCanvasView x:Name="view2" PaintSurface="PaintSurface" 
-                           HeightRequest="150" WidthRequest="150" HorizontalOptions="Fill">
-            </skia:SKCanvasView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
