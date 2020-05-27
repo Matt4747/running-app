@@ -92,7 +92,7 @@ namespace Running
             {
                 test.Text = "";
                 lvYears.WidthRequest = 200;
-                view2.WidthRequest = 500;
+                //view2.WidthRequest = 500;
                 outerLayout.Orientation = StackOrientation.Horizontal;
                 outerLayout.Padding = 10;
             }
