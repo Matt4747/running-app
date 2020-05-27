@@ -4,9 +4,6 @@
         <StackLayout>
             <Label Text="Weeks" FontSize="Large" HorizontalOptions="Center"/>
             <ListView x:Name="lvWeeks" ItemTapped="ItemClicked"/>
-            <skia:SKCanvasView x:Name="view2" PaintSurface="PaintSurface" 
-                           HeightRequest="150" WidthRequest="150" HorizontalOptions="Fill">
-            </skia:SKCanvasView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
