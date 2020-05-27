@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{5E6084D0-2D91-46FF-AA4C-16CD0EFE4BEB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Running/EventPage.xaml.cs">
+    <Files>
+      <File FileName="Running/MainPage.xaml" Line="11" Column="21" />
+      <File FileName="Running/MainPage.xaml.cs" />
+      <File FileName="Running/EventPage.xaml" />
+      <File FileName="Running/EventPage.xaml.cs" Line="7" Column="38" />
+      <File FileName="Running/TotalsPage.xaml" />
+      <File FileName="Running/TotalsPage.xaml.cs" />
+      <File FileName="Running/SettingsPage.xaml" />
+      <File FileName="Running/SettingsPage.xaml.cs" />
+      <File FileName="Running/App.xaml" />
+      <File FileName="Running/AssemblyInfo.cs" />
+      <File FileName="Running/DB.cs" />
+      <File FileName="Running/Event.cs" />
+      <File FileName="Running/App.xaml.cs" />
+      <File FileName="Running/MonthsPage.xaml" />
+      <File FileName="Running/MonthsPage.xaml.cs" />
+      <File FileName="Running/YearsPage.xaml" />
+      <File FileName="Running/YearsPage.xaml.cs" />
+      <File FileName="Running/DaysPage.xaml" />
+      <File FileName="Running/DaysPage.xaml.cs" />
+      <File FileName="Running.iOS/Main.cs" />
+      <File FileName="Running/WeeksPage.xaml" />
+      <File FileName="Running/WeeksPage.xaml.cs" />
+      <File FileName="Running/obj/Debug/netstandard2.0/DaysPage.xaml.g.cs" />
+      <File FileName="Running.iOS/RunningShoe.jpeg" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Running" expanded="True" selected="True">
+            <Node name="Running" expanded="True">
+              <Node name="EventPage.xaml" expanded="True" />
+              <Node name="WeeksPage.xaml" expanded="True" />
+            </Node>
+            <Node name="Running.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.Running.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.47661404-44B5-483B-9B14-56747C146AA9" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

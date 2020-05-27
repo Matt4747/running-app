@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Running.EventPage">
+    <ContentPage.Content>
+        <StackLayout Padding="0,50,0,0">
+            <Label Text="Events" HorizontalTextAlignment="Center" FontSize="Large"/>
+            <Image Source="WingShoe.png" HeightRequest="50"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Date" HorizontalTextAlignment="Start" FontSize="Medium"/>
+                <DatePicker x:Name="datePicked" HorizontalOptions="Center"></DatePicker>
+            </StackLayout>
+            <Label Text="Distance"/>
+            <StackLayout Orientation="Horizontal">
+                <Entry Text="0" x:Name="distanceFirst" TextChanged="TextChanged"/>
+                <Label Text="." VerticalOptions="End"/>
+                <Entry Text="0" x:Name="distanceSecond" TextChanged="TextChanged"/>
+                <Label x:Name= "currentUnit" Text="Miles"/>
+            </StackLayout>
+            <Label Text="Time"/>
+            <StackLayout Orientation="Horizontal">
+                <Entry x:Name = "hours" Text="00" TextChanged="TextChanged"/>
+                <Label Text=":"/>
+                <Entry x:Name= "minutes" Text="00" TextChanged="TextChanged"/>
+                <Label Text=":"/>
+                <Entry x:Name= "seconds" Text="00" TextChanged="TextChanged"/>                
+            </StackLayout>
+            <ListView x:Name="lvActivities">
+            </ListView>
+            <Button Text="Add" Clicked="AddClicked"/>
+            <Button Text="Update" Clicked="UpdateClicked"/>
+            <Button Text="Delete" Clicked="DeleteClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
